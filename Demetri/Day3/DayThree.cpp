@@ -57,6 +57,7 @@ int part_two(const std::string& file_name) {
                 left = std::stoi(num_itr++->str());
                 right = std::stoi(num_itr++->str());
                 total += left * right;
+                std::cout << total << std::endl;
             }
             mul_itr++;
         }
